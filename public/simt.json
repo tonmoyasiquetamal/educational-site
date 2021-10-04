@@ -1,0 +1,65 @@
+[
+    {
+        "key": 1,
+        "name": "Computer Science Engineering",
+        "description": "Computer Science Engineering is a course that deals with design, implementation, and management of information systems of both software & hardware processes. ... Computer Science engineering aids with various disciplines such as electrical and electronics engineering, information technology, software engineering, and more.",
+        "fees": 60000,
+        "img": "https://i.ibb.co/wWrhVJT/01.jpg"
+    },
+    {
+        "key": 2,
+        "name": "Textile Engineering",
+        "description": "Textile engineering (TE) or textile technology deals with the application of scientific and engineering principles to the design and control of all aspects of fiber, textile, and apparel processes, products, and machinery.",
+        "fees": 45000,
+        "img": "https://i.ibb.co/4RVmP3r/02.jpg"
+    },
+    {
+        "key": 3,
+        "name": "Electrical & Electronics Engineering",
+        "description": "This is probably the most disciplined field in the field of engineering; thus pursuing EEE can be a little challenging. As the full form states, the interested candidate will have to deal with electrical and electronics engineering.",
+        "fees": 55000,
+        "img": "https://i.ibb.co/dM532CC/03.png"
+    },
+    {
+        "key": 4,
+        "name": "Civil Engineering",
+        "description": "Civil engineers conceive, design, build, supervise, operate, construct and maintain infrastructure projects and systems in the public and private sector, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment.",
+        "fees": 45000,
+        "img": "https://i.ibb.co/tPzr3j8/04.jpg"
+    },
+    {
+        "key": 5,
+        "name": "Software Engineering",
+        "description": "Software engineering is defined as a process of analyzing user requirements and then designing, building, and testing software application which will satisfy those requirements. ... It helps you to obtain, economically, software which is reliable and works efficiently on the real machines'.",
+        "fees": 55000,
+        "img": "https://i.ibb.co/tZxggp8/05.jpg"
+    },
+    {
+        "key": 6,
+        "name": "Architectural Engineering",
+        "description": "Architectural engineering, also known as building engineering or architecture engineering, is an engineering discipline that deals with the technological aspects and multi-disciplinary approach to planning, design, construction and operation of buildings, such as analysis and integrated design of environmental systems",
+        "fees": 51500,
+        "img": "https://i.ibb.co/cLbfpZr/06.jpg"
+    },
+    {
+        "key": 7,
+        "name": "Aerospace Engineering",
+        "description": "As an aviation engineer, their responsibilities involve the design, development, testing, and maintenance of aircraft. You may work on flight systems, mechanical elements within the plane, airspace navigation systems, wing or body materials, or other aspects of airplanes or aviation.",
+        "fees": 54500,
+        "img": "https://i.ibb.co/4PgpZw3/07.jpg"
+    },
+    {
+        "key": 8,
+        "name": "Energy Production Engineering",
+        "description": "Industry uses fossil fuels and renewable energy sources for: Heat in industrial processes and space heating in buildings. Boiler fuel to generate steam or hot water for process heating and generating electricity.",
+        "fees": 65000,
+        "img": "https://i.ibb.co/PTbsYps/08.jpg"
+    },
+    {
+        "key": 9,
+        "name": "Biomedical Engineering",
+        "description": "Biomedical engineering is the application of the principles and problem-solving techniques of engineering to biology and medicine.Biomedical engineering focuses on the advances that improve human health and health care at all levels.",
+        "fees": 94000,
+        "img": "https://i.ibb.co/X3hZyNY/09.jpg"
+    }
+]
