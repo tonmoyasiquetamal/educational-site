@@ -9,8 +9,8 @@ const NotFound = () => {
                 <div className="container mt-5">
                     <div className="row justify-content-center mt-5">
                         <div className="col-md-12 text-center mt-5">
-                            <span className="display-1 d-block">404</span>
-                            <div className="mb-4 lead">This Page Is Not Available</div>
+                            <span className="display-1 d-block fw-bold text-danger">404</span>
+                            <div className="mb-4 lead fw-bolder text-warning">This Page Is Not Available</div>
                         </div>
                     </div>
                 </div>
