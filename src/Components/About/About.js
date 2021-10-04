@@ -8,7 +8,7 @@ const About = () => {
         /*<-----The Section & Div For About Us , Picture Dynamically----->*/
         <div className="about-container">
             <div className="d-flex mt-5 justify-content-center">
-                <h1 className="text-success">About Us</h1>
+                <h1 className="text-muted">About Us</h1>
             </div>
             
             <section className="hero-banner py-5 mt-5">
@@ -19,7 +19,7 @@ const About = () => {
                         </div>
                         <div className="col-lg-6 mb-8">
                             <h1 className="mt-3 ">Gain Skill With Tech-Edu <br /> Tech-Edu</h1>
-                            <p className="fw-bold lead my-5 text-muted">Tech-Edu is a state regulatory Institute responsible for monitoring and developing technical and vocational education in the secondary level, 2-year higher secondary level and 4-year Diploma in Engineering of Bangladesh.</p>
+                            <p className="fw-bold lead my-5 text-dark">Tech-Edu is a state regulatory Institute responsible for monitoring and developing technical and vocational education in the secondary level, 2-year higher secondary level and 4-year Diploma in Engineering of Bangladesh.</p>
                         </div>
                     </div>
                 </div>

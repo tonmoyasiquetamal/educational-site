@@ -6,12 +6,12 @@ const ContactUs = () => {
     return (
         /*<-----Contact Us Input Form With Demo Button-----> */
         <div className="contact-us">
-            <div className="d-flex mt-5 justify-content-center ">
-                <h1 classname="fw-bolder" >Contact Us</h1>
+            <div className="d-flex mt-5 justify-content-center text-muted">
+                <h1 classname="fw-bolder">Contact Us</h1>
             </div>
             <div className="container contact-form ">
                 <form method="post">
-                    <h3>Keep Connect With Us</h3>
+                    <h3 className=" text-dark">Keep Connect With Us</h3>
                     <div className="row">
                         <div className="col-md-6">
                             <div className=" p-2">

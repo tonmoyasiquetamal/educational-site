@@ -50,7 +50,7 @@ const Home = () => {
             {/* The Top Courses Showing From Here */}
             <div className="container mt-5 mb-5" >
                 <div className="d-flex mt-5 justify-content-center ">
-                    <h1 >Our Top Courses</h1>
+                    <h1 className="text-muted">Our Top Courses</h1>
                 </div>
 
                 <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 text-black">
@@ -58,7 +58,7 @@ const Home = () => {
                     {/*Map For Serially Calling Data & 
                     Key For No Error Message From Console*/}
                     {homeCourses.map(homeCourse => <div className="col" key={homeCourse.key}>
-                        <div className="card h-100">
+                        <div className="card h-100 blinking">
                             <img src={homeCourse.img} className="img-fluid rounded-start" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{homeCourse.name}</h5>

@@ -1,0 +1,5 @@
+.blinking:hover .card-footer{
+    background-color: #264653;
+    color: #A5D6A7;
+    /* font-weight: 600; */
+}

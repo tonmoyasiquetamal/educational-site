@@ -9,3 +9,16 @@
 .btn:hover{
     color:#F06292;
 }
+.blinking{
+    /* display: inline-block; */
+    vertical-align: middle;
+ 
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.blinking:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 6px #F06292;
+    
+}
