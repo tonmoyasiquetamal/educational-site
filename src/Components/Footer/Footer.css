@@ -1,12 +1,13 @@
+/* <-----Footer Contain Overall Color & Size-----> */
 .footer-container {
     background-color: #5C6BC0;
     padding: 10px;
     color: rgb(216, 209, 209);
     bottom: 0;
     width: 100%;
-
-
   }
+
+  /* <-----Icon Got Font Size-----> */
   .icon{
     font-size: 30px;
   }

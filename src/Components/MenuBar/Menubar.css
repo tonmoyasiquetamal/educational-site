@@ -1,3 +1,4 @@
+/* <-----Items Overall Fix in to the size-----> */
 .items {
     display: flex;
     list-style: none;
@@ -9,9 +10,13 @@
     text-decoration: none;
     /* 5C6BC0 */
   }
+
+  /* <-----Items are Hovering-----> */
   .items:hover {
    color:#F06293
   }
+
+  /*<-----UL, LI Body Artified----->  */
   body {
     background: #81D4FA;
     color: white;

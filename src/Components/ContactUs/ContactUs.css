@@ -1,6 +1,8 @@
+/* <-----Message Input Field Style-----> */
 .message{
     height: 150px;
 }
+/* <-----Contact Us Height Fixed-----> */
 .contact-us{
     height: 80vh;
 }
