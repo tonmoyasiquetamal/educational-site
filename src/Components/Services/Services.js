@@ -1,5 +1,7 @@
+/*<-----Services. JS Starting Here----->*/
 import React, { useEffect, useState } from 'react';
 
+/*<-----Services API Data Loaded From Json Fetch----->*/
 const Services = () => {
     const [details, setDetails] = useState([]);
     useEffect(() => {
@@ -13,6 +15,8 @@ const Services = () => {
                 <h1>We Provided These Services</h1>
             </div>
 
+            {/* Mapping For All Data Infront & Key For Stopping Error In Console Log */}
+            {/* Dynamically Data Show In Services Card  */}
             <div className="container text-black mt-5 mb-5" >
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {details.map(detail => <div className="col" key={detail.key} >
@@ -36,3 +40,4 @@ const Services = () => {
 };
 
 export default Services;
+/*<-----Services. JS Ending Here----->*/

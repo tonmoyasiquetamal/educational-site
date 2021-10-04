@@ -1,15 +1,17 @@
+/*<-----ContactUs. JS Starting Here----->*/
 import React from 'react';
 import './ContactUs.css'
 
 const ContactUs = () => {
     return (
+        /*<-----Contact Us Input Form With Demo Button-----> */
         <div className="contact-us">
             <div className="d-flex mt-5 justify-content-center ">
-                <h1 >Contact Us</h1>
+                <h1 classname="fw-bolder" >Contact Us</h1>
             </div>
             <div className="container contact-form ">
                 <form method="post">
-                    <h3>Get in touch </h3>
+                    <h3>Keep Connect With Us</h3>
                     <div className="row">
                         <div className="col-md-6">
                             <div className=" p-2">
@@ -22,7 +24,7 @@ const ContactUs = () => {
                                 <input type="text" name="txtPhone" className="form-control" placeholder="Your Phone Number *" value="" />
                             </div>
                             <div className=" p-2">
-                                <button type="button" className="btn btn-primary">Primary</button>
+                                <button type="button" className="btn btn-primary">Submit </button>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -39,3 +41,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+/*<-----ContactUs. JS Ending Here----->*/

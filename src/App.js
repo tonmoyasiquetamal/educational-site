@@ -1,5 +1,8 @@
+/*<-----App. JS Starting Here----->*/
 import './App.css';
 import React from "react";
+
+/*<-----React Router Dom----->*/
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,12 +16,15 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Services from './Components/Services/Services';
 import NotFound from './Components/NotFound/NotFound';
 
+/*<-----Router, Switch, Route Got Site Path-----> */
 function App() {
   return (
     <div>
       <Router>
+        {/* Menubar Called For Site Upside  */}
         <MenuBar></MenuBar>
         <Switch>
+          {/* Route Exact Path Needed For Exact Way Route in Site */}
           <Route exact path="/">
             <Home></Home>
           </Route>
@@ -34,6 +40,8 @@ function App() {
           <Route path="/contact">
             <ContactUs></ContactUs>
           </Route>
+          {/* Route Path * For If Any other Character Written In After 
+          Slash Then Give a Not Found Message */}
           <Route path="*">
             <NotFound></NotFound>
           </Route>
@@ -45,3 +53,4 @@ function App() {
 }
 
 export default App;
+/*<-----App. JS Ending Here----->*/

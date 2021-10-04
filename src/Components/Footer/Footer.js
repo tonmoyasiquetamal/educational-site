@@ -1,3 +1,4 @@
+/*<-----Footer. JS Starting Here----->*/
 import React from "react";
 import "./Footer.css";
 
@@ -11,6 +12,7 @@ const Footer = () => {
                         <div className="col-md-6">
                             <div className="left-container text-start">
 
+                                {/* fa icon from FontAwesome  */}
                                 <div className="icons-container d-flex text-center ">
 
                                     <div className="icon pe-2">
@@ -26,12 +28,15 @@ const Footer = () => {
                                         <i className="fab fa-youtube-square"></i>
                                     </div>
                                 </div>
-
+                                
+                                {/* Copyright Text Here */}
                                 <p className="mt-3">
                                     <small>Tech-Edu © . All rights Reserved | 2021.</small>
                                 </p>
                             </div>
                         </div>
+
+                        {/* Contact Here */}
                         <div className="col-md-6">
                             <div className="right-footer-container d-flex justify-content-end">
                                 <div className=" ">
@@ -40,7 +45,7 @@ const Footer = () => {
                                         <p>
                                             60/1-A North Pirerbag
                                             <br />
-                                           Mirpur, Dhaka 1216, Bangladesh
+                                            Mirpur, Dhaka 1216, Bangladesh
                                         </p>
                                     </div>
                                 </div>
@@ -54,3 +59,4 @@ const Footer = () => {
 };
 
 export default Footer;
+/*<-----Footer. JS Starting Here----->*/

@@ -7,20 +7,20 @@
     cursor: pointer;
     padding: 5px;
     text-decoration: none;
-  
+    /* 5C6BC0 */
   }
   .items:hover {
-   color: gray;
+   color:#F06293
   }
   body {
-    background: #2a2e32;
-color: white;
+    background: #81D4FA;
+    color: white;
   }
   ul li{
     color: white;
   }
   ul li:hover{
-    color: rgb(187, 187, 187);
+    color: #FFA726;
   }
   
   

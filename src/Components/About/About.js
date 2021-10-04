@@ -1,13 +1,16 @@
+/*<-----About. JS Starting Here----->*/
 import React from 'react';
 import './About.css'
 import image from "../../images/menu.png"
 
 const About = () => {
     return (
+        /*<-----The Section & Div For About Us , Picture Dynamically----->*/
         <div className="about-container">
             <div className="d-flex mt-5 justify-content-center">
                 <h1 >About Us</h1>
             </div>
+            
             <section className="hero-banner py-5 mt-5">
                 <div className="container">
                     <div className="row row align-items-center">
@@ -30,3 +33,4 @@ const About = () => {
 
 
 export default About;
+/*<-----About. JS Starting Here----->*/

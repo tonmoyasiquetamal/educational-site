@@ -1,10 +1,12 @@
+/*<-----Menubar. JS Starting Here----->*/
 import "./Menubar.css";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo-menu.jpg";
 
 const MenuBar = () => {
     return (
-        <div className="MenuBar-container bg-dark ">
+        /*<-----Menubar With Link Serially & menubar got Image Dynamically-----> */
+        <div className="MenuBar-container bg-secondary ">
             <div className="container">
                 <div className="row">
                     <div className="col-md-2">
@@ -37,5 +39,4 @@ const MenuBar = () => {
 };
 
 export default MenuBar;
-
-
+/*<-----Menubar. JS Ending Here----->*/
