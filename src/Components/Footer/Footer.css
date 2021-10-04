@@ -11,4 +11,16 @@
   .icon{
     font-size: 30px;
   }
-
+/* Icon Color */
+.fa-facebook{
+  color:#2196F3;
+}
+.fa-twitter{
+  color:#26C6DA;
+}
+.fa-github{
+  color:#424242;
+}
+.fa-instagram{
+color:#EC407A;
+}

@@ -16,22 +16,22 @@ const Footer = () => {
                                 <div className="icons-container d-flex text-center ">
 
                                     <div className="icon pe-2">
-                                        <i className="fab fa-facebook-square"></i>
+                                        <i className="fab fa-facebook"></i>
                                     </div>
                                     <div className="icon pe-2">
-                                        <i className="fab fa-twitter-square"></i>
+                                        <i className="fab fa-github"></i>
                                     </div>
                                     <div className="icon pe-2">
-                                        <i className="fab fa-instagram-square"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </div>
                                     <div className="icon">
-                                        <i className="fab fa-youtube-square"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </div>
                                 </div>
                                 
                                 {/* Copyright Text Here */}
                                 <p className="mt-3">
-                                    <small>Tech-Edu © . All rights Reserved | 2021.</small>
+                                    <small className="fw-bold">Tech-Edu © . All rights Reserved | 2021.</small>
                                 </p>
                             </div>
                         </div>
